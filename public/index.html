@@ -34,28 +34,46 @@
                 <div></div>
             </section>
             <section class="footer">
-                <div class="card">
+                <div class="card card-spiderman">
                     <img src="https://i.ibb.co/tKWqw8J/spiderman.png" alt="spiderman">
                     <div></div>
                 </div>
-                <div class="card">
+                <div class="card card-robin">
                     <img src="https://i.ibb.co/Xzsdvgg/robin.png" alt="robin">
                     <div></div>
                 </div>
-                <div class="card">
+                <div class="card card-batman">
                     <img src="https://i.ibb.co/M18p91c/batman.webp" alt="batman">
                     <div></div>
                 </div>
             </section>
         </section>
     <!-- Loader -->
-    <section class="loader">
+    <section class="loaderd">
         <div></div>
         <div></div>
         <div></div>
     </section>
     <!-- Modal -->
-    <section></section>
+    <section class="modal hidden">
+        <div>
+            <img class="modal-icon-close" src="../src/images/icons8-close.svg" alt="close">
+        </div>
+        <section class="modal-content">
+            <div class="slider-modal">
+                <input type="radio" id="radio_spiderman-1" name="slider_spiderman" checked>
+                <input type="radio" id="radio_spiderman-2" name="slider_spiderman">
+                <input type="radio" id="radio_spiderman-3" name="slider_spiderman">
+                <div class="cards-modal">
+                    <label for="radio_spiderman-1" class="card_spiderman-1 card_spiderman"><img src="https://static.platzi.com/media/public/uploads/spider-man_db8af43d-b692-4986-a385-e645d286e142.png" alt="spiderman_1"></label>
+                    <label for="radio_spiderman-2" class="card_spiderman-2 card_spiderman"><img src="https://static.platzi.com/media/public/uploads/spider-man-2_b24c96b3-6d59-496f-815d-32b25eba0141.png" alt="spiderman_2"></label>
+                    <label for="radio_spiderman-3" class="card_spiderman-3 card_spiderman"><img src="https://static.platzi.com/media/public/uploads/spider-man-3_19f5c510-8059-4477-abf8-42249a5445b7.png" alt="spiderman_3"></label>
+                </div>
+            </div>
+            <button class="button_buy">Lo quiero!</button>
+        </section>
+    </section>
     </div>
+    <script src="../src/index.js"></script>
 </body>
 </html>
